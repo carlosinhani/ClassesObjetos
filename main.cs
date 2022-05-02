@@ -1,7 +1,12 @@
 using System;
 
-class Program {
+class MainClass {
   public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
+    Pessoa p1 = new Pessoa();
+    p1.Nome = "Rodrigo";
+    p1.Idade = 40;
+    p1.Genero = 'M';
+    //p1.Aprovado = false;
+    p1.MostrarDados();
   }
 }
